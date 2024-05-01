@@ -1,6 +1,9 @@
 
-
 const dodger = document.getElementById("dodger");
+
+dodger.style.backgroundColor = "crimson";
+
+dodger.style.bottom = "0.3px";
 
 function moveDodgerLeft(){
   const leftNumbers = dodger.style.left.replace("px", "");
